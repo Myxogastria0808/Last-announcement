@@ -64,51 +64,51 @@
     background-color: bisque;
 }
 
-/* 1枚目のスライド */
+/* 8枚目のスライド */
 .vertical-slider__slide:nth-child(8) {
     background-color: #fa5457;
   }
   
-  /* 2枚目のスライド */
+  /* 9枚目のスライド */
   .vertical-slider__slide:nth-child(9) {
     background-color: #fa8925;
   }
   
-  /* 3枚目のスライド */
+  /* 10枚目のスライド */
   .vertical-slider__slide:nth-child(10) {
     background-color: #f6d51f;
   }
   
-  /* 4枚目のスライド */
+  /* 11枚目のスライド */
   .vertical-slider__slide:nth-child(11) {
     background-color: #01b4bc;
   }
   
-  /* 5枚目のスライド */
+  /* 12枚目のスライド */
   .vertical-slider__slide:nth-child(12) {
     background-color: #5fa55a;
   }
   
-  /* 6枚目のスライド */
+  /* 13枚目のスライド */
   .vertical-slider__slide:nth-child(13) {
       background-color: pink;
   }
   
   
-  /* 7枚目のスライド */
+  /* 14枚目のスライド */
   .vertical-slider__slide:nth-child(14) {
       background-color: bisque;
   }
 
-    /* 3枚目のスライド */
-    .vertical-slider__slide:nth-child(15) {
-        background-color: #f6d51f;
-      }
+/* 15枚目のスライド */
+.vertical-slider__slide:nth-child(15) {
+    background-color: #f6d51f;
+}
       
-      /* 4枚目のスライド */
-      .vertical-slider__slide:nth-child(16) {
-        background-color: #01b4bc;
-      }
+/* 16枚目のスライド */
+.vertical-slider__slide:nth-child(16) {
+   background-color: #01b4bc;
+}
       
 
 /* SP時の文字サイズ調整 */
