@@ -1,3 +1,145 @@
+/*opening sutter animation*/
+.bg {
+  width: 100vw;
+  height: 100vh;
+  background: orange;
+  animation: bgAnime 1s linear 3.0s forwards;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.text {
+  text-align: center;
+  font-size: 6vw;
+  font-family: 'Pacifico', cursive;
+  color: #fff;
+  height: 1em;
+  line-height: 1.2;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: auto;
+  z-index: 7;
+  opacity: 0;
+  animation: textAnime1 .5s linear forwards;
+}
+
+.text span{
+  display: inline-block;
+}
+
+.text span:nth-child(1){
+  animation: textAnime2 .6s ease-in-out .5s forwards;
+}
+
+.text span:nth-child(2){
+  animation: textAnime2 .6s ease-in-out .6s forwards;
+}
+
+.text span:nth-child(3){
+  animation: textAnime2 .6s ease-in-out .7s forwards;
+}
+
+.text span:nth-child(4){
+  animation: textAnime2 .6s ease-in-out .8s forwards;
+}
+
+.text span:nth-child(5){
+  animation: textAnime2 .6s ease-in-out .9s forwards;
+}
+
+.text span:nth-child(6){
+  animation: textAnime2 .6s ease-in-out 1.0s forwards;
+}
+
+.text span:nth-child(7){
+  animation: textAnime2 .6s ease-in-out 1.1s forwards;
+}
+
+.text span:nth-child(8){
+  animation: textAnime2 .6s ease-in-out 1.2s forwards;
+}
+
+.text span:nth-child(9){
+  animation: textAnime2 .6s ease-in-out 1.3s forwards;
+}
+
+.text span:nth-child(10){
+  animation: textAnime2 .6s ease-in-out 1.4s forwards;
+}
+
+.text span:nth-child(11){
+  animation: textAnime2 .6s ease-in-out 1.5s forwards;
+}
+
+.text span:nth-child(12){
+  animation: textAnime2 .6s ease-in-out 1.6s forwards;
+}
+
+.text span:nth-child(13){
+  animation: textAnime2 .6s ease-in-out 1.7s forwards;
+}
+
+.text span:nth-child(14){
+  animation: textAnime2 .6s ease-in-out 1.8s forwards;
+}
+
+.text span:nth-child(15){
+  animation: textAnime2 .6s ease-in-out 1.9s forwards;
+}
+
+.text span:nth-child(16){
+  animation: textAnime2 .6s ease-in-out 2.0s forwards;
+}
+
+.text span:nth-child(17){
+  animation: textAnime2 .6s ease-in-out 2.1s forwards;
+}
+
+
+/*keyframe*/
+@keyframes textAnime1{
+0%{
+  opacity: 0;
+}
+100%{
+  opacity: 1;
+}
+}
+
+@keyframes textAnime2 {
+0% {
+  transform: translateY(0);
+}
+25%{
+  transform: translateY(-30%);
+}
+75% {
+  transform: translateY(30%);
+}
+100%{
+  transform: translateY(0);
+}
+}
+
+@keyframes bgAnime{
+0%{
+  opacity: 10;
+}
+99%{
+  opacity: 0;
+}
+100%{
+  opacity: 0;
+  visibility: hidden;
+}
+}
+  
+
+
 /* Google Fonts読み込み */
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&display=swap");
 
@@ -132,3 +274,5 @@
     height: 100%;
     font-size: 10px;
 }
+
+
